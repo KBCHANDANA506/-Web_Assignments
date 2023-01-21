@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Table-1</title>
+</head>
+<body>
+    <h1>Nested Tables</h1>
+    <table border="2" width="50% aligh=center">
+        <tr>
+            <th>Head Coloumn 1</th>
+            <th>Head Coloumn 2</th>
+            <th>Head Coloumn 3</th>
+            <th>Head Coloumn 4</th>
+        </tr>
+        <tr>
+            <td>Row 2-Item 1</td>
+            <td>Row 2-Item 2</td>
+            <th rowspan="2" align="left">Row 2:Nested Table 1
+                <table border="2" width="80%">
+                    <tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <td>item</td>
+                    </tr>
+
+                </table>
+            </th>
+            <td>Row 2-Item 4<p></p>A second line</td>
+        </tr>
+        <tr>
+            <th  align="left">Row 3:Nested Table 2
+                <table border="2" width="80%">
+                  <tr>
+                    <th>Row 1 Header</th>
+                    <td>item</td>
+                  </tr>
+                  <tr>
+                    <th>Row 2 Header</th>
+                    <td>item</td>
+                  </tr>
+                    
+
+                </table>
+            </th>
+            <td>Row 3-Items 2</td>
+            <th rowspan="4" align="left">Row 3-Item 3</th>
+
+        </tr>
+        <tr>
+            <td>Row 4-Item 1</td>
+            <td>Row 4-Item 2</td>
+            <td>Row 4-Item 2</td>
+        </tr>
+        <tr>
+            <td colspan="4">Row 5-Last row of outer table</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
